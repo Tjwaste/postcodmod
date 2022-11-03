@@ -1,0 +1,5 @@
+# postcodmod
+from ukpostcodeutils import validation
+
+if validation.is_valid_postcode('SW1A1AA'):
+    print "Postcode OK."
